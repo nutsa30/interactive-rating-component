@@ -1,0 +1,273 @@
+/* - White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+
+
+/* - Orange: hsl(25, 97%, 53%) */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Overpass", sans-serif;
+    background-color: hsl(216, 12%, 8%)  ;
+}
+
+.container{
+    display: flex;
+}
+
+/*raiting-card*/
+/*raiting-card*/
+
+
+
+
+
+.raiting-card{
+    width: 400px;
+    background-color:hsl(213, 19%, 18%) ;
+    color: white;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    
+}
+
+
+
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color:blue;
+    margin: 20px 25px 30px ;
+    background-color:hsla(217, 12%, 63%, 0.078);
+
+}
+.raiting-card h2{
+
+    padding: 0px 30px ;
+    margin:0px 0px 10px;
+}
+
+.raiting-card p{
+    color: hsl(217, 12%, 63%);
+    padding: 0px 30px;
+    margin: 0px 0px 30px  ;
+    
+}
+
+.raiting-btns{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   justify-content: space-between;
+   margin: 0px 30px 30px;
+
+
+}
+
+.raiting-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    background-color:hsla(217, 12%, 63%, 0.078);
+}
+
+.raiting-btn:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.selected{
+    background-color:hsl(25, 97%, 53%) ;
+    color: black;
+}
+
+.raiting-submit-btn{
+ border: none;
+ display: flex;
+ justify-content: center;
+ padding: 15px;
+ margin: 0px 20px 25px;
+ border-radius: 30px;
+ font-weight: bold;
+ letter-spacing: 2px;
+ 
+ 
+}
+
+.raiting-submit-btn-hover:hover{
+    cursor: pointer;
+    background-color:hsl(25, 97%, 53%) ;
+    color: white;
+}
+
+/*thank you card*/
+/*thank you card*/
+
+.thank-you-card{
+    width: 400px;
+    background-color:hsl(213, 19%, 18%) ;
+    color: white;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+
+.thank-you-card img{
+    width: 200px;
+    margin:  40px auto;
+
+}
+
+.thank-you-card small{
+   
+    margin: auto;
+    color: hsl(25, 97%, 53%) ;
+    background-color: hsla(217, 12%, 63%, 0.078);
+    padding: 8px 18px;
+    border-radius: 20px;
+}
+    
+.thank-you-card h2{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px;
+   
+}
+
+.thank-you-card p{
+  display: flex;
+  text-align: center;
+    color: hsl(217, 12%, 63%);
+    padding: 0px 20px;
+    margin: 0px 0px 40px   ;
+    
+    
+   
+   
+  
+   
+
+}
+
+
+
+/*raiting-card*/
+
+
+@media (max-width: 500px){
+    .raiting-card {
+        width: 350px;
+        margin: auto;
+        /* padding: 5px; */
+        font-size: 14px;
+        font-weight: 500;
+
+    }
+    .raiting-btns{
+      
+       margin: 0px 20px 20px 20px;
+      
+           
+       }
+
+}
+
+
+
+
+
+@media (max-width: 400px){
+    .raiting-card{
+        width: 300px;
+
+    }
+    .raiting-btns{
+      
+        margin: 0px 10px 20px 10px;
+       
+            
+    }
+    
+    .raiting-card h2{
+
+        padding: 0px 15px ;
+        margin:0px 0px 5px;
+    }
+    
+
+    .raiting-card p{
+        
+
+       
+        padding: 10px;
+        margin: 0px 5px 15px 5px  ;
+        
+    }
+
+    .img-div{
+        margin: 20px 15px 20px ;
+    }
+}
+
+
+
+
+@media (max-width: 320px){
+    .raiting-card{
+      width: 290px;
+      padding: 0px;
+    }
+    
+}
+
+
+/*thank-you-card*/
+
+@media (max-width: 500px){
+    .thank-you-card{
+        width: 350px;
+        
+        
+    }
+
+    .thank-you-card h2{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        margin: 20px 0px 10px 0px;
+       
+    }
+
+   
+}
+
+
+@media (max-width: 320px){
+   .thank-you-card{
+     width: 300px;
+   }
+    
+}
